@@ -8,7 +8,7 @@ To do so, a HTML/JS webpage simulates and displays the state of the process base
 ![Architecture](images/spp_behind_the_scenes.png)
 
 A SCADA software can also be added for a more realistic environment. When the PLC is configured adequately, this is how it looks like:
-![Architecture](https://user-images.githubusercontent.com/93718/185948796-79fa8b5f-675a-46fd-9155-677506330100.mov)
+https://user-images.githubusercontent.com/93718/185948796-79fa8b5f-675a-46fd-9155-677506330100.mov
 
 # Requirements
 The Python 3 app relies on ``Flask``, ``atexit``, ``pymodbus`` and ``json`` modules

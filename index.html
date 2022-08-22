@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICS simulation platform</title>
+</head>
+<link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+<body>
+    <div class="wrapper">
+        <div id="feedback"></div>
+        <button id="resetBtn">Reset</button>
+        <div id="AgitatorMotor" class="led1"></div>
+        <div id="Agitator_gif"><img src="Agitator_gif.gif" height="200" width="100"></img></div>
+        <div id="InletValve1" class="led1"></div>
+        <div id="InletValve2" class="led1"></div>
+        <div id="InletValve3" class="led1"></div>
+        <div id="OutletValve1" class="led1"></div>
+        <div id="Pump" class="led1"></div>
+        <div id="MixingTankLevel" class="textlabel"></div>
+        <div id="DestinationTankLevel" class="textlabel"></div>
+        <div id="AgitatorRPM" class="textlabel"></div>
+        <div id="PumpRPM" class="textlabel"></div>
+    </div>
+
+<script src="{{ url_for('static', filename = 'app.js') }}"></script>
+</body>
+</html>

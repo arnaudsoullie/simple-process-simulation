@@ -1,0 +1,137 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: auto auto auto auto;
+    width: 1185px;
+    height: 800px;
+    background-color: white;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    position:relative
+}
+.wrapper div{
+    display: block;
+}
+#feedback{
+    display: block;
+    height: 104px;
+    width: 176px;
+    position: absolute;
+    top: 442px;
+    left: 32px;
+    font-size: 14pt;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+#resetBtn{
+    position: absolute;
+    top: 560px;
+    left: 77px;
+    width: 85px;
+    height: 30px;
+    background-color: #ff4d00;
+    border: none;
+    color: rgb(255, 223, 202);
+    border-radius: 10px;
+    font-weight: 700;
+}
+#resetBtn:active{
+    transform: scale(0.90);
+}
+#AgitatorMotor{
+    top: 339px;
+    left: 349px;
+    position: absolute;
+}
+#InletValve1{
+    top: 328px;
+    left: 232px;
+    position: absolute;
+}
+#InletValve2{
+    top: 328px;
+    left: 480px;
+    position: absolute;
+}
+#InletValve3{
+    top: 316px;
+    left: 978px;
+    position: absolute;
+}
+#OutletValve1{
+    top: 516px;
+    left: 516px;
+    position: absolute;
+}
+#Pump{
+    top: 584px;
+    left: 633px;
+    position: absolute;
+}
+#MixingTankLevel{
+    top: 470px;
+    left: 364px;
+    height: 39px;
+    line-height: 39px;
+    width: 92px;
+    position: absolute;
+    font-size: 12pt;
+    text-align: center;
+}
+#DestinationTankLevel{
+    top: 433px;
+    left: 1010px;
+    height: 39px;
+    line-height: 39px;
+    width: 92px;
+    position: absolute;
+    font-size: 12pt;
+}
+#AgitatorRPM{
+    top: 252px;
+    left: 303px;
+    height: 23px;
+    line-height: 23px;
+    width: 108px;
+    position: absolute;
+    font-size: 12pt;
+    text-align: center;
+}
+#Agitator_gif{
+    top: 355px;
+    left: 303px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#PumpRPM{
+    top: 646px;
+    left: 571px;
+    height: 23px;
+    width: 144px;
+    position: absolute;
+    line-height: 23px;
+    font-size: 12pt;
+    text-align: center;
+}
+.led1{
+    width: 17px;
+    height: 17px;
+    font-size: 8pt;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.textlabel{
+    font-size: 24pt;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    background-color: orange;
+    color: black;
+}

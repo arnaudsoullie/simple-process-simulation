@@ -22,9 +22,20 @@ The Python 3 app relies on ``Flask``, ``atexit``, ``pymodbus`` and ``json`` modu
 Navigate to the project folder and launch ``python3 -m flask run``
 Then navigate to http://localhost:5000 with your web browser
 
-# Contributions
-I would welcome any comment or suggestion on how to make it more realistic, while keeping it failry simple
+# Tweaking the simulation
+I tried my best to have code that is simple to read.
+If you want to modify information about the PLC (IP address for example) or the coils & registers associated with the values ==> ``app.py``
+If you want to modify the simulation itself (changing the speed of the process, adding new errors...) ==> ``static/app.js``
 
+# Contributions
+I would welcome any comment or suggestion on how to make it more realistic, while keeping it fairly simple
+
+# Similar work
+This is by far not the first attempt at simulating an industrial process :)
+You can look at the following alternatives / similar solutions:
+ - [FactoryIO](https://factoryio.com/): A commercial 3D process simulation for PLC training
+ - [GRFICSv2](https://github.com/Fortiphyd/GRFICSv2): Version 2 of the Graphical Realism Framework for Industrial Control Simulation (GRFICS) by Fortiphyd
+ - [Virtuaplant](https://github.com/jseidl/virtuaplant): A simple Python project to simulates processes (now deprecated)
 
 
 
